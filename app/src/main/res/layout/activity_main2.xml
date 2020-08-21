@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_weight="4"
+
+        android:background="@color/colorBlack"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView2"
+            android:layout_width="169dp"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sh" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="32dp"
+            android:text="santosh"
+            android:textColor="@color/colorWhite"
+            android:textSize="37dp" />
+
+        <TextView
+            android:id="@+id/job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="22dp"
+            android:text="WHOLESELLES"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/mobilenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Mobile Number"/>
+
+    <EditText
+        android:id="@+id/txtmobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+     <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:ems="10" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:text="Address" />
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="City" />
+    <EditText
+        android:id="@+id/txtcity"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Pin Code" />
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+</LinearLayout>
